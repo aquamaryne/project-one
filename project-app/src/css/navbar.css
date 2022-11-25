@@ -1,17 +1,26 @@
 * {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
     text-decoration: none;
-    padding-left: 150px;
 }
-.title{
-    padding-bottom: 25px;
-    font-size: 100px;
+
+body{
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
+
 .navigate{
-    display: inline-block;
-    padding-left: 100px;
-    padding-top: 50px;
-    font-size: 20px;
-    border: solid 3px;
-    border-color: midnightblue;
+    display: inline-flexbox; 
+    background-size: 100%;
+    background-color: black;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.title{
+    color: white;
+    letter-spacing: 3px;
+    padding-right: 1000px;
 }
