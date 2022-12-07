@@ -1,3 +1,4 @@
+import Clock from "./components/clock";
 import Navbar from "./components/navbar"; 
 import './css/navbar.css'
 
@@ -6,8 +7,11 @@ import './css/navbar.css'
 const App = () => {
   return(
     <div className="navigate">
-      <span className="title"> MAKEDIE </span>
+      <span className="title text navtext"> MAKEDIE </span>
       <Navbar />
+      <div className="timer">
+      <Clock />
+      </div>
     </div> 
   )
 }

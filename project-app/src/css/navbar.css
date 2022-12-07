@@ -4,23 +4,27 @@
     padding: 0;
     text-align: center;
     text-decoration: none;
-}
-
-body{
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    display: flexbox; 
 }
 
 .navigate{
-    display: inline-flexbox; 
+    font-family: 'Josefin Sans', sans-serif;
     background-size: 100%;
-    background-color: black;
+    background-color: #181D31;
     font-size: 28px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: -1rem;
 }
 
 .title{
+    font-family: 'Kenia', sans-serif;
     color: white;
     letter-spacing: 3px;
-    padding-right: 1000px;
+    margin-right: 85rem;
+    font-size: 4rem;
+}
+
+.timer{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin-right: 90rem;
 }

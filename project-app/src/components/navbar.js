@@ -1,7 +1,5 @@
 import React from "react";
-import './gaming';
-import './news';
-import './score';
+
 
 const Navbar = () => {
     return(
