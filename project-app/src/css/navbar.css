@@ -1,10 +1,9 @@
+
 * {
+    text-decoration: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: center;
-    text-decoration: none;
-    display: flexbox; 
 }
 
 .navigate{
@@ -18,13 +17,20 @@
 .title{
     font-family: 'Kenia', sans-serif;
     color: white;
-    letter-spacing: 3px;
-    margin-right: 85rem;
+    letter-spacing: 4px;
+    padding-left: 5rem;
     font-size: 4rem;
 }
 
 .timer{
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    margin-right: 90rem;
+    margin-left: 10rem;
+    margin-top: -2rem;
 }
+
+.navText{
+    padding-left: 20rem;
+    text-decoration-line: none;
+}
+
