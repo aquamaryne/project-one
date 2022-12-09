@@ -1,9 +1,9 @@
 import React from "react";
 
-const Score = () => {
+const Anime = () => {
     return(
         <div> Anime </div>
     )
 }
 
-export default Score;
+export default Anime;
