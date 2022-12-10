@@ -1,5 +1,6 @@
 
 * {
+    justify-content: space-around;
     text-decoration: none;
     box-sizing: border-box;
     margin: 0;
@@ -9,28 +10,27 @@
 .navigate{
     font-family: 'Josefin Sans', sans-serif;
     background-size: 100%;
-    background-color: #181D31;
+    background-color: #151235;
     font-size: 28px;
     padding-top: -1rem;
 }
 
 .title{
-    font-family: 'Kenia', sans-serif;
-    color: white;
-    letter-spacing: 4px;
-    padding-left: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.55rem;
+    padding-left: 10rem;
     font-size: 4rem;
 }
 
 .timer{
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FFE98A;
     margin-left: 10rem;
     margin-top: -2rem;
 }
 
 .navText{
-    padding-left: 20rem;
+    padding-left: 35rem;
     text-decoration-line: none;
 }
 
