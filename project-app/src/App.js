@@ -1,4 +1,3 @@
-//import "bootstrap/dist/css/bootstrap.min.css";
 import Clock from "./components/clock";
 import Navbar from "./components/navbar"; 
 import './css/navbar.css'
@@ -8,7 +7,7 @@ import './css/navbar.css'
 const App = () => {
   return(
     <div className="navigate">
-      <span className="title"> MAKEDIE </span>
+      <span className="title">  <a href = "./main" style = {{color: "#009DC9"}}> MAKEDIE </a> </span>
       <div className="navText">
         <Navbar />
       </div>
