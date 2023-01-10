@@ -8,7 +8,7 @@
 }
 
 .navigate{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'VT323', sans-serif;
     background-size: 100%;
     background-color: #151235;
     font-size: 28px;
@@ -23,14 +23,17 @@
 }
 
 .timer{
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 3rem;
     color: #FFE98A;
     margin-left: 10rem;
-    margin-top: -2rem;
+    padding-left: 2.5rem;
 }
 
 .navText{
     padding-left: 35rem;
     text-decoration-line: none;
+    margin-left: 40px;
+    color: #009DC9;
 }
 
