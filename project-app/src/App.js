@@ -33,6 +33,9 @@ class App extends Component {
           <div className="timer">
             <Clock />
           </div>
+          <div className="footer">
+
+          </div>
         </div>
       </BrowserRouter>
     )
