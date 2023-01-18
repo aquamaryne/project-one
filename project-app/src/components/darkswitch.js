@@ -1,9 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
-const DarkMode = (props) => {
-    return(
-        <div> Dark Mode </div>
-    )
+const DarkMode = () => {
+    
 }
 
 export default DarkMode;
