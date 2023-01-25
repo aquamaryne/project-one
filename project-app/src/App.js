@@ -6,7 +6,7 @@ import Games from "./components/gaming";
 import News from "./components/news";
 import Anime from "./components/anime";
 import Hardware from "./components/hardware";
-import Top100 from "./components/topone";
+import Meta from "./components/meta";
 import { Component } from "react";
 
 
@@ -19,11 +19,11 @@ class App extends Component {
           <Route path="/news" component={ News } />
           <Route path="/hardware" component={ Hardware } />
           <Route path="/anime" component={ Anime }/>
-          <Route path="/topone" component={ Top100 }/>
+          <Route path="/meta" component={ Meta }/>
         </Routes>
         <div className="navigate">
           <div className="title">
-            <span style={{color : 'aliceblue'}}> 
+            <span className="maintext"> 
             <Link to={"/"} > MAKEDIE </Link> 
             </span>
           </div>
@@ -33,8 +33,8 @@ class App extends Component {
           <div className="timer">
             <Clock />
           </div>
-          <div className="footer">
-
+          <div className="progress">
+            
           </div>
         </div>
       </BrowserRouter>
