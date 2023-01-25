@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link to="/anime"> Anime </Link>
             </li>
             <li d="five">
-                <Link to="/topone"> Top 100 </Link>
+                <Link to="/meta"> Meta </Link>
             </li>
         </div>
     )
