@@ -2,11 +2,13 @@ import { BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import Clock from "./components/clock";
 import Navbar from "./components/navbar";
 import './css/navbar.css';
-import Games from "./components/gaming";
-import News from "./components/news";
-import Anime from "./components/anime";
-import Hardware from "./components/hardware";
-import Meta from "./components/meta";
+import './css/footer.css';
+import Games  from "./components/gaming";
+import News  from "./components/news";
+import Anime  from "./components/anime";
+import Hardware  from "./components/hardware";
+import Meta  from "./components/meta";
+import Footer from "./components/footer";
 import { Component } from "react";
 
 
@@ -15,11 +17,11 @@ class App extends Component {
     return(
       <BrowserRouter>
         <Routes>
-          <Route path="/games" component={ Games }/>
-          <Route path="/news" component={ News } />
-          <Route path="/hardware" component={ Hardware } />
-          <Route path="/anime" component={ Anime }/>
-          <Route path="/meta" component={ Meta }/>
+          <Route path="/games" component={ <Games/> }/>
+          <Route path="/news" component={ <News/>} />
+          <Route path="/hardware" component={ <Hardware/> } />
+          <Route path="/anime" component={<Anime/>}/>
+          <Route path="/meta" component={ <Meta/> }/>
         </Routes>
         <div className="navigate">
           <div className="title">
@@ -27,15 +29,15 @@ class App extends Component {
             <Link to={"/"} > MAKEDIE </Link> 
             </span>
           </div>
-          <div className="navText" style={{ color:'white' }}>
+          <div className="navText">
             <Navbar />
           </div>
           <div className="timer">
             <Clock />
           </div>
-          <div className="progress">
-            
-          </div>
+        </div>
+        <div className="footer">
+          <Footer />
         </div>
       </BrowserRouter>
     )
