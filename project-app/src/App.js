@@ -1,8 +1,9 @@
+import './css/button.css';
+import './css/navbar.css';
+import './css/footer.css';
 import { BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import Clock from "./components/clock";
 import Navbar from "./components/navbar";
-import './css/navbar.css';
-import './css/footer.css';
 import Games  from "./components/gaming";
 import News  from "./components/news";
 import Anime  from "./components/anime";
@@ -10,6 +11,7 @@ import Hardware  from "./components/hardware";
 import Meta  from "./components/meta";
 import Footer from "./components/footer";
 import { Component } from "react";
+import ButtonForm from "./components/button";
 
 
 class App extends Component {
@@ -34,6 +36,9 @@ class App extends Component {
           </div>
           <div className="timer">
             <Clock />
+          </div>
+          <div className="button">
+            <ButtonForm />
           </div>
         </div>
         <div className="footer">
