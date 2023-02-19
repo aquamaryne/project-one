@@ -1,10 +1,10 @@
 import React from 'react'
 import instagramLogo from './instagram.png';
 import twitterLogo from './twitter.png';
-import githubLogo from './github.png'
+import githubLogo from './github.png';
+
 const Footer = () => {
-    const year = new Date().getFullYear();
-    
+
     return (
         <footer>
             <ul>
@@ -24,7 +24,6 @@ const Footer = () => {
                     </a>
                 </li>
             </ul> 
-            { year } 
         </footer>
     )
 }
