@@ -11,7 +11,7 @@ import Hardware  from "./components/hardware";
 import Meta  from "./components/meta";
 import Footer from "./components/footer";
 import { Component } from "react";
-import ButtonForm from "./components/button";
+import Button from './components/button';
 
 
 class App extends Component {
@@ -37,8 +37,8 @@ class App extends Component {
           <div className="timer">
             <Clock />
           </div>
-          <div className="button">
-            <ButtonForm />
+          <div className='button'>
+            <Button />
           </div>
         </div>
         <div className="footer">
