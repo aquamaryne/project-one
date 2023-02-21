@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 
-function buttonForm(){
-    const handleClick = () => {
-        window.open('/register', '_blank');
-    };
-
+function LoginButton(){
+    /**
+     * Must
+     * finish
+     *  */ 
     return(
-        <button onClick={handleClick}> Login </button>
+        <a href="./loginForm">
+            <button> Login </button>
+        </a>
     )
 }
 
-export default buttonForm;
+export default LoginButton;
