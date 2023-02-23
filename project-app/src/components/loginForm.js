@@ -6,7 +6,7 @@ export default function LoginForm(){
     const[email, setEmail] = useState("");
 
     const handleRegister = (event) => {
-        event.preventDefault();
+        //event.preventDefault();
 
         console.log("User register with:", username, password, email)
     };

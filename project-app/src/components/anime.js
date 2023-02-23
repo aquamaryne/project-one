@@ -2,7 +2,9 @@ import React from "react";
 
 const Anime = () => {
     return(
-        <div> Anime </div>
+        <div>
+            <h1> HEllo </h1>
+        </div>
     )
 }
 
