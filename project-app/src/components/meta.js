@@ -2,7 +2,9 @@ import React from "react";
 
 const Meta = () => {
     return(
-        <div> Meta </div>
+        <div>
+            <h1> hello </h1>
+        </div>
     )
 }
 

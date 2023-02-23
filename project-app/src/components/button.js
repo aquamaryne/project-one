@@ -1,14 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function LoginButton(){
-    /**
-     * Must
-     * finish
-     *  */ 
     return(
-        <a href="./loginForm">
+        <Link to="./loginForm">
             <button> Login </button>
-        </a>
+        </Link>
     )
 }
 
