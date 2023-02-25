@@ -9,8 +9,8 @@ import News  from "./components/news";
 import Anime  from "./components/anime";
 import Hardware  from "./components/hardware";
 import Meta  from "./components/meta";
-import Footer from "./components/footer";
-import DarkMode from './components/darkswitch';
+import Footer from "./components/Footer/footer";
+import DarkMode from './components/DarkMode/darkswitch';
 // import Button from './components/button';
 
 
