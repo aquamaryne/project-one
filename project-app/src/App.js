@@ -10,6 +10,7 @@ import Anime  from "./components/anime";
 import Hardware  from "./components/hardware";
 import Meta  from "./components/meta";
 import Footer from "./components/footer";
+import DarkMode from './components/darkswitch';
 // import Button from './components/button';
 
 
@@ -17,7 +18,10 @@ export default function App(){
   return(
     <BrowserRouter>
       <div className="navbar">
-         <Navbar />
+        <Navbar />
+      </div>
+      <div className='darkmode'>
+        <DarkMode />
       </div>
       <div className='footer'>
         <Footer />

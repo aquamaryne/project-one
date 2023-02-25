@@ -1,29 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import './darkmode.css';
 
 const DarkMode = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    useEffect(() => {
-        const body = document.querySelector('body');
-        if(isDarkMode){
-            body.classList.add('dark-mode')
-        } else {
-            body.classList.remove('dark-mode');
-        }
-    }, [isDarkMode]);
+    const [darkMode, setDarkMode] = useState(false);
 
     const toggleDarkMode = () => {
-        setIsDarkMode(!isDarkMode);
-    };
+        setDarkMode(!darkMode);
+    }
 
     return(
-        <div className="dark-mode-switch">
-            <label htmlFor="dark-mode-toggle"> Dark Mode </label>
-            <input 
-                type="checkbox"
-                is="dark-mode-toggle"
-                onChange={toggleDarkMode}
-            />
+        <div className={darkMode ? 'dark-mode' : 'light-mode'}>
+            <button onClick={toggleDarkMode}>
+                {darkMode ? 'Light Mode' : 'Dark Mode'}
+            </button>
         </div>
     )
 }
