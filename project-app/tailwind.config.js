@@ -3,7 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: 
+    {
+      fontFamily: {
+        'impact-regular': ['Impact', 'sans-serif'],
+        'rubik': ['Rubik', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

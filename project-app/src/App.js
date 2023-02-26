@@ -1,6 +1,7 @@
 // import './css/button.css';
 import './css/navbar.css';
 import './css/footer.css';
+import 'tailwindcss/tailwind.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //import Clock from "./components/clock";
 import Navbar from "./components/navbar";
