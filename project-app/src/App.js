@@ -1,6 +1,4 @@
-// import './css/button.css';
-import './css/navbar.css';
-import './css/footer.css';
+import 'tailwindcss/tailwind.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //import Clock from "./components/clock";
 import Navbar from "./components/navbar";
@@ -10,22 +8,12 @@ import Anime  from "./components/anime";
 import Hardware  from "./components/hardware";
 import Meta  from "./components/meta";
 import Footer from "./components/Footer/footer";
-import DarkMode from './components/DarkMode/darkswitch';
-// import Button from './components/button';
+
 
 
 export default function App(){
   return(
     <BrowserRouter>
-      <div className="navbar">
-        <Navbar />
-      </div>
-      <div className='darkmode'>
-        <DarkMode />
-      </div>
-      <div className='footer'>
-        <Footer />
-      </div>
       <Routes>
         <Route path="/games" component={ Games }/>
         <Route path="/news" component={ News } />
@@ -33,6 +21,10 @@ export default function App(){
         <Route path="/anime" component={ Anime }/>
         <Route path="/meta" component={ Meta }/>
       </Routes>
+      <div>
+        <Navbar />
+        <Footer />
+      </div>
     </BrowserRouter>
   )
 };
