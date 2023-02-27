@@ -7,7 +7,8 @@ module.exports = {
     {
       fontFamily: {
         'impact-regular': ['Impact', 'sans-serif'],
-        'rubik': ['Rubik', 'sans-serif']
+        'rubik': ['Rubik', 'sans-serif'],
+        'bebas': ['Bebas Neue', 'sans-serif']
       }
     },
   },

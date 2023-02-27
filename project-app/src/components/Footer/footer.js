@@ -6,10 +6,10 @@ import githubLogo from './github.png';
 const Footer = () => {
 
     return (
-        <footer className='bg-gray-800 text-white'>
+        <footer className='bg-gray-800 text-white fixed bottom-0 w-full'>
             <div className='container mx-auto flex justify-between items-center py-6'>
                 <ul className='flex items-center'>
-                    <li className='mr-6'>
+                    <li className='mr-6 pl-20'>
                         <a href='https://github.com'>
                             <img src={githubLogo} alt='GitHub' className='h-8 w-8'></img> 
                         </a>
