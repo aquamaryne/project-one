@@ -1,6 +1,6 @@
 import React from "react";
 
-const Anime = () => {
+const DarkSouls = () => {
     return(
         <div>
             <h1> HEllo </h1>
@@ -8,4 +8,4 @@ const Anime = () => {
     )
 }
 
-export default Anime;
+export default DarkSouls;

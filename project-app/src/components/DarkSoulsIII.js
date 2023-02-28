@@ -1,9 +1,9 @@
 import React from "react";
 
-const Hardware = () => {
+const DarkSoulsIII = () => {
     return(
         <div> Hardware </div>
     )
 }
 
-export default Hardware;
+export default DarkSoulsIII;

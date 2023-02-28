@@ -11,6 +11,9 @@ module.exports = {
         'bebas': ['Bebas Neue', 'sans-serif']
       }
     },
+    color: {
+      
+    }
   },
   plugins: [],
 }
