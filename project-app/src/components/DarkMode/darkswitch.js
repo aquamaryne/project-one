@@ -10,8 +10,8 @@ const DarkMode = () => {
 
     return(
         <div className={darkMode ? 'dark-mode' : 'light-mode'}>
-            <button onClick={toggleDarkMode}>
-                {darkMode ? 'Light Mode' : 'Dark Mode'}
+            <button onClick={toggleDarkMode} className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4">
+                {darkMode ? 'Light' : 'Darks'}
             </button>
         </div>
     )

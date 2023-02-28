@@ -2,11 +2,11 @@ import 'tailwindcss/tailwind.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //import Clock from "./components/clock";
 import Navbar from "./components/navbar";
-import Games  from "./components/gaming";
-import News  from "./components/news";
-import Anime  from "./components/anime";
-import Hardware  from "./components/hardware";
-import Meta  from "./components/meta";
+import DarkSouls from './components/DarkSouls';
+import DarkSoulsII from './components/DarkSoulsII';
+import DarkSoulsIII from './components/DarkSoulsIII';
+import Bloodborne from './components/Bloodborne';
+import EldenRing from './components/EldenRing';
 import Footer from "./components/Footer/footer";
 
 
@@ -15,11 +15,11 @@ export default function App(){
   return(
     <BrowserRouter>
       <Routes>
-        <Route path="/games" component={ Games }/>
-        <Route path="/news" component={ News } />
-        <Route path="/hardware" component={ Hardware } />
-        <Route path="/anime" component={ Anime }/>
-        <Route path="/meta" component={ Meta }/>
+        <Route path="/DarkSouls" component={ DarkSouls }/>
+        <Route path="/DarkSoulsII" component={ DarkSoulsII } />
+        <Route path="/DarkSoulsIII" component={ DarkSoulsIII } />
+        <Route path="/Bloodborne" component={ Bloodborne }/>
+        <Route path="/EldenRing" component={ EldenRing }/>
       </Routes>
       <div>
         <Navbar />

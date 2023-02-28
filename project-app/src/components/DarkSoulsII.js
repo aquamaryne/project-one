@@ -1,6 +1,6 @@
 import React from "react";
 
-const Gaming = () => {
+const DarkSoulsII = () => {
     return(
         <div> 
             <h1> Gaming </h1>
@@ -8,4 +8,4 @@ const Gaming = () => {
     )
 }
 
-export default Gaming;
+export default DarkSoulsII;
